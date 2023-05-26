@@ -1,0 +1,700 @@
+
+/* Head */
+
+#bloc-page
+{ 
+    font-family: 'Raleway';
+    margin: auto;
+    width: 96%;
+    max-width: 1400px;
+}
+
+.container-titre
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img_booki
+{
+    width: auto;
+    height: 19px;
+    align-self: center;
+}
+
+/* Style Général*/
+
+img
+{
+    border-style: none;
+    cursor: pointer;
+}
+
+.flex
+{
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h1
+{
+    font-size: 22px ;
+    font-weight: 700;
+    hyphens: auto;
+}
+h2
+{
+    font-size: 18px;
+    font-weight: 700;
+    hyphens: auto;
+}
+
+h3
+{
+    font-size: 16px;
+    font-weight: 700;
+    hyphens: auto;
+}
+
+p
+{
+    font-size: 14px;
+    hyphens: auto;
+}
+
+.fond-gris
+{
+    background: #f2f2f2;
+}
+
+.radius
+{
+    border-radius: 20px;
+}
+
+.radius1
+{
+    border-radius: 20px 20px 0 0;
+}
+
+.bcolor
+{
+    background: white;
+}
+
+.color_star
+{
+    color: #0065FC;
+    font-size: x-small;
+}
+
+.shadow
+{
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1) ;
+}
+
+.shadow:hover
+{
+    box-shadow: 0 3px 15px #0065FC ;
+    transition: 0.5s ease;
+}
+.gris
+{
+    color: #f2f2f2;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+/* Navigation*/
+
+.navi
+{
+    padding:48px 33.5px;
+    border-top:  2px solid transparent;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navi:hover
+{
+    color:#0065FC ;
+    border-top: 2px solid #0065FC;
+}
+
+/* Bouton recherche*/
+
+.visible1
+{
+    visibility: hidden;
+}
+
+form
+{
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+}
+
+label
+{
+    background:#f2f2f2 ;
+    border-radius: 15px 0 0 15px;
+    padding: 17px 20px;
+}
+
+#barre-search
+{
+    font-weight: 700;
+    border: none;
+    padding:0px 20px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    color: black;
+}
+
+.search
+{
+    background: #0065FC;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.search:hover
+{
+    cursor: pointer;
+    background: #DEEBFF;
+    color: #0065FC;
+    transition: 0.3s ease-in-out;
+}
+
+/* filtre*/
+
+#filtre
+{
+    margin: 30px 15px 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    align-items: baseline;
+}
+
+.alignement
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    margin: 20px 1%;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.alignement:hover
+{
+    background:#DEEBFF ;
+    color: #0065FC;
+}
+
+.icone
+{
+    color: #0065FC;
+    border: none;
+    padding: 15px 0px 15px 15px;
+    font-size: 22px;
+}
+
+.icone-filtre
+{
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0px 20px 0 15px;
+}
+
+/* information*/
+
+#info
+{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 20px 0 ;
+}
+
+#info i
+{
+    color: #0065FC;
+    border: 1px solid #f2f2f2;
+    font-size: small;
+    height: 100%;
+    padding: 5px 10px 0;
+    margin: 0 10px 0 0;
+    border-radius: 25px;
+}
+
+/* Section général*/
+
+.big_box
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box_content
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/* Hébergement*/
+
+#hébergement
+{
+    width: 94%;
+    padding-top: 20px;
+}
+
+.heb_mar
+{
+    display: flex;
+    flex-direction: column;
+    width: 66.5%;
+    height: 626px;
+}
+
+.card
+{
+    height: 199px;
+    width: 32%;
+}
+
+.image_card
+{
+    width: 96%;
+    height: 118px;
+    padding: 5px ;
+    object-fit: cover;
+}
+
+.text_card
+{
+    margin-block: -8%;
+    background: white;
+    padding-top: 5px;
+    padding-left: 5%;
+    border-radius: 0 0 20px 20px;
+    line-height: 9px;
+}
+
+.alignh2
+{
+    width: 94%;
+}
+
+/* Aside populaire*/
+
+.container_aside 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-chart-line
+{
+    color: #0065FC;
+    padding: 20px 0;
+}
+
+.image_card2
+{
+    object-fit: cover;
+    width: 32%;
+    height:144px ;
+    padding: 5px;
+    border-radius: 20px 0 0 20px;
+}
+
+.card_2
+{
+    hyphens: auto;
+    margin: 12.5px 0;
+}
+.text_card2
+{
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.aside_align
+{
+    height: 625px;
+    width: 31.5%;
+    border-radius: 20px
+}
+
+.align_star
+{
+    margin-top: 15%;
+}
+
+#mise_form
+{
+    padding: 8%;
+}
+
+/*Activité Marseille*/
+
+.big_box2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.espace
+{
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+
+.card_3
+{
+    width: 22%;
+    height: auto;
+}
+
+.image_card3
+{
+    object-fit: cover;
+    width: 100%;
+    height: 389px;
+}
+
+.text_card3
+{
+    background-color: white;
+    margin-top: -42px;
+    position: relative;
+    padding: 20px 20px 0 ;
+}
+
+/* Footer*/
+
+.bas_page 
+{
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.mini_box
+{
+    padding: 25px ;
+    line-height: 36px;
+}
+
+ul
+{
+    padding: 0;
+}
+
+.lien_footer:hover
+{
+    color: #0065FC;
+}
+
+/* petit écran tablette inférieur ou égal a 992*/
+
+@media all and (min-width:769px) and (max-width: 992px)
+{
+    #bloc-page
+    {
+        width:96%;
+    }
+
+    #filtre
+    {
+        width: 100%;
+    }
+
+    .icone-filtre 
+    {
+        padding: 0px 10px 0 10px;
+    }
+
+    .aside_align
+    {
+        width: 100%;
+        height: 278px;
+        margin-top: 50px;
+    }
+
+
+    #mise_form
+    {
+        padding: 20px
+    }
+
+    .heb_mar
+    {
+        width: 100%;
+    }
+
+    .card_2
+    {
+        hyphens: auto;
+        width: 30%;
+    }
+
+    .image_card2
+    {
+        width: 40%;
+    }
+
+    .text_card2
+    {
+        margin-left: -26px;
+        background-color: white;
+        padding-left: 5px;
+    }
+
+    .ecran
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card_3
+    {
+        width: 23%;
+        height: 267px;
+    }
+
+    .image_card3
+    {
+        width: 100%;
+        height: 230px;
+        hyphens: auto;
+    }
+}
+
+/* Ecran smarphone*/
+
+@media all and (max-width:768px)
+{
+
+    #bloc-page
+    { 
+        width: 100%;
+    }
+
+    .marg_left 
+    {
+        margin: 0 3%;
+    }
+
+    #info
+    {
+        margin: 3%;
+    }
+
+    .img_booki
+    {
+        width: auto;
+        height: 19px;
+        align-self: center;
+        margin-top: 21px;
+    }
+
+    .container-titre
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navi
+    {
+        width: 50%;
+        border-bottom:  3px solid transparent;
+        padding: 40px 0 20px 60px;
+    }
+
+    .navi:hover
+    {
+        color:#0065FC ;
+        border-bottom: 3px solid #0065FC;
+        border-top: 2px solid transparent;
+    }
+
+    #filtre
+    {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 97%;
+        margin: 2%;
+    }
+
+    #titre_filtre
+    {
+        width: 100%;
+    }
+
+    .flex
+    {
+        display: flex;
+        justify-content: initial;
+    }
+
+
+    .visible1
+    {
+        visibility: visible;
+        color: #f2f2f2;
+        padding-left: 22px;
+    }
+
+    .search:hover
+    {
+        color: #0065FC;
+    }
+
+    .visible
+    {
+        visibility: hidden;
+        display: none;
+    }
+
+    #barre-search
+    {
+        width: 65%;
+    }
+
+    .text_search
+    {
+        visibility: collapse;
+    }
+
+    .icone-filtre
+    {
+        font-size: 11px;
+        padding: 0px 0px 0 8px;
+    }
+
+    .alignement
+    {
+        width: 40%;
+        margin: 1%;
+    }
+
+    .alignement:hover
+    {
+        background:none;
+        color: white;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .icone
+    {
+        padding: 10px 0 10px 10px;
+    }
+
+    .big_box 
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .reverse-box
+    {
+        flex-direction: column-reverse;
+    }
+    .heb_mar
+    {
+        margin: 3%;
+        width: 97%;
+        height: auto;
+    }
+
+    .box_content
+    {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        flex-wrap: initial;
+        justify-content: initial;
+        height: auto;
+    }
+
+    .aside_align 
+    {
+        width: 100%;
+        height: auto;
+        border-radius: initial;
+    }
+
+    #mise_form 
+    {
+        padding: 3%;
+    }
+
+    .card 
+    {
+        height: 199px;
+        width: 94%;
+        margin-top: 12px;
+    }
+
+    .image_card 
+    {
+        width: 98.5%;
+    }
+
+    .text_card 
+    {
+        margin-block: -2%;
+        line-height: 0.5%;
+    }
+
+    .espace
+    {
+        margin: 60px 4% 0;
+        justify-content: space-evenly;
+    }
+
+    .card_3
+    {
+        width: 94%;
+        height: 190px;
+        margin: 3%;
+    }
+
+    .image_card3
+    {
+        height: 175px;
+    }
+
+    .bas_page 
+    {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+}
